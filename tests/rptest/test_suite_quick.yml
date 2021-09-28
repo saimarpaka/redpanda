@@ -13,5 +13,4 @@ quick:
 
   excluded:
   - tests/librdkafka_test.py
-  - tests/rpk_test.py
   - tests/compaction_recovery_test.py
