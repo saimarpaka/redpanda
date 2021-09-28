@@ -13,4 +13,3 @@ quick:
 
   excluded:
   - tests/librdkafka_test.py
-  - tests/compaction_recovery_test.py
