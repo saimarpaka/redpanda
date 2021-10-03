@@ -108,7 +108,6 @@ class NodeOperationFuzzyTest(EndToEndTest):
     nodes
     """
 
-    @ignore  # https://github.com/vectorizedio/redpanda/issues/2246
     @cluster(num_nodes=7)
     def test_node_opeartions(self):
         # allocate 5 nodes for the cluster
